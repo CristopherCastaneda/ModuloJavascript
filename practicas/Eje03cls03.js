@@ -4,13 +4,13 @@
 //Hint: Anidar
 
 
-let num1 = parseInt(prompt('Ingresa Numero:'))
-let num2 = parseInt(prompt('Ingresa Numero:'))
-let num3 = parseInt(prompt('Ingresa Numero:'))
-console.log(num1)
-console.log(num2)
-console.log(num3)
-console.log ("el mayor es")
+// let num1 = parseInt(prompt('Ingresa Numero:'))
+// let num2 = parseInt(prompt('Ingresa Numero:'))
+// let num3 = parseInt(prompt('Ingresa Numero:'))
+// console.log(num1)
+// console.log(num2)
+// console.log(num3)
 
-let resultado = num1 > num2 &&  num1 > num3 ? num1 : num2 > num1 &&  num2 > num3 ? num2: num3 > num2 &&  num3 > num1 ? num3 : "todos son iguales";
-console.log(resultado);
+// let resultado = num1 > num2 &&  num1 > num3 ? num1 : num2 > num1 &&  num2 > num3 ? num2: num3 > num2 &&  num3 > num1 ? num3 : "todos son iguales";
+
+// console.log (`el resultado es: ${resultado}`)

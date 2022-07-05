@@ -2,10 +2,10 @@
 //Formula para el calcul: base * altura)/ 2
 
 
-//console.log('El area del triangulo es:')
-//let base = parseInt(prompt('base:'))
-//let altura = parseInt(prompt('altura:'))
+// console.log('El area del triangulo es:')
+// let base = parseInt(prompt('base:'))
+// let altura = parseInt(prompt('altura:'))
 
-//let resultado = (base * altura)/2
-//console.log(resultado)
+// let resultado = (base * altura)/2
+// console.log(resultado)
 

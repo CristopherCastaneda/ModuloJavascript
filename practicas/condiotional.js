@@ -68,6 +68,20 @@
 //console.log(result)
 
 
+// switch
+
+// let a = 2
+// switch (a) {
+//     case 1:
+//         console.log("es uno");
+//         break
+//     case 2:
+//         console.log("es dos");
+//         break
+//     default:
+//         console.log("no es ni uno ni dos")
+// }
+
 
 
 
