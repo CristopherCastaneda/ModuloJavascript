@@ -1,4 +1,4 @@
-console.log("hello koders")
+// console.log("hello koders")
 //! datos en js
     // identificador
         //reglas o buenas practicas
