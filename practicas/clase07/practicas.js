@@ -7,16 +7,16 @@
 // * que hay entre 1 y 100
 // * Resolver con cualquiera de: For, While y do While
 
-function mutiplos(i){
-for(let i = 1; i<= 100; i++)
-{
-    if ((i % 3) == 0)
-    {
-        result += i;
-    }
-}return i
-}
-multiplos();
+// function mutiplos(i){
+// for(let i = 1; i<= 100; i++)
+// {
+//     if ((i % 3) == 0)
+//     {
+//         result += i;
+//     }
+// }return i
+// }
+// multiplos();
 
 // * Ejercicio 2
 // * Pedir el usuario 1 numero entre 1 y 100

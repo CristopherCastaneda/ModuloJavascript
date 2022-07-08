@@ -19,13 +19,13 @@
 // }
 //  console.log(`multiplo de 3 ${m3} \n  multiplo de 5${m5}`);
 
-let result = 0;
+// let result = 0;
 
-for(let i = 1; i<= 100; i++)
-{
-    if (i % 3 == 0|| i % 5 == 0 || i % 7 == 0)
-    {
-        result += i;
-    }
-}
-console.log(`Suma con for= ${result}`);
+// for(let i = 1; i<= 100; i++)
+// {
+//     if (i % 3 == 0|| i % 5 == 0 || i % 7 == 0)
+//     {
+//         result += i;
+//     }
+// }
+// console.log(`Suma con for= ${result}`);
