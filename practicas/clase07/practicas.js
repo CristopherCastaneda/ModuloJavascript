@@ -37,3 +37,52 @@
 * ->  E -> 1
 * ->  Espacios -> 1
 */
+
+// Pratica grupal
+// Tomar 2 ejercicios del dia de ayer dy refactorizar a arrow functions
+
+// const areaTriangulo = (base, altura)  => {
+//     return (parseInt(base) * parseInt(altura) / 2);
+// }
+
+// console.log(`El area del triangulo es: ${areaTriangulo(2,2)}`);
+
+// Practica Grupal 2
+// Arrow function
+// Pedir al usuario una cadena de texto
+// Declarar una función flecha para
+// Pasarle la oración del usuario como parámetro de la función declarada
+// verificar si esa oración es un palíndromo
+// Retornar el resultado y mostrarlo al usuario (usando log o aler)
+// Por ejemplo:
+// isPalindrome('hola') -> No es un palíndromo
+// isPalindrome('oso') -> SI es un palindromo
+ 
+//    Podemos probar con las siguientes ->
+//    anita lava la tina -> Palindromo
+//    oso -> Palindromo
+//    seres -> Palindromo
+ 
+//    Hint / Pista
+//     Quitamos los espacios
+
+
+
+// const palindro = () {
+// let palabra = prompt("palindromo");
+// let reversa = palabra.replace(" ","");
+
+// for(let index=palabra.length-1; index>=0; index--)
+// {
+//     reversa += palabra[index]
+
+// }return reversa
+
+
+// }console.log(palindro(oso))
+
+
+
+
+
+

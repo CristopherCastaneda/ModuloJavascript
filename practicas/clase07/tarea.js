@@ -84,7 +84,9 @@
 
 
 
-    //  Ejercicio 2 ->
+
+
+    //!  Ejercicio 2 ->
     //  Función que pida 3 numeros como parametro
     //  2 números obligatorios y 1 opcional con valor de 3
     //  Arroje la suma de esos 3 números
@@ -97,7 +99,7 @@
 
 
 
-    //  ejercicio 3 ->
+    //!  ejercicio 3 ->
     //  Función que pida al usuario los grados Centigrados en su localidad
     //  Convertirlos a grados fahrenheit
     //  Retornar el valor y ese valor usarlo para
@@ -107,12 +109,12 @@
 
 
     
-    //  Ejercicio 4 ->
+    //!  Ejercicio 4 ->
     //  Función que reciba una numero e imprima las tablas de ese numeri, validamos que ese numero este entre 1 y 10
     
     
     
-    //  Ejercicio 5 ->
+    //!  Ejercicio 5 ->
     //  Función que pida al usuario un número (N) entre 1 y 100
     //  Mandar un alert con suma desde el 1 hasta N
     //  N debe tener un valor por defecto =  3

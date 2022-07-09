@@ -143,7 +143,7 @@
 // let reversa = "";
 // for(let index=palabra.length-1; index>=0; index--)
 // {
-//     reversa += palabra[index] // es la accion  que va a realizar
+    // reversa += palabra[index] // es la accion  que va a realizar
 // }
 // console.log(reversa) //imprime en consola el resultado
 
