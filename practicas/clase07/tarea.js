@@ -81,6 +81,13 @@
     //  y la retorna, almacenamos ese retorno en una variable y al interpolamos en un alert usando template literals
     //  reversedString('hola') -> 'aloh'
 
+// let palabra = prompt("una palabra")
+// let reverse = () => {
+//     for(let i=0;i<palabra.length;i++)
+//     return palabra.reverse();
+     
+// }
+// alert(`palabra invertida: ${reverse()}`);
 
 
 
