@@ -1,5 +1,5 @@
 // * Ejercicio 1
-// * Realizar una función que reciba como parametro 1 array de numeros
+// * Realizar una función que reciba como parametro 1 array de numeros ok
 // * Y devuelva un array con solo los elementos Pares de ese array
 // * p.ej.
 // * -> evenOnly( [1,2,3,4,18] ) -> [2,4,18]
@@ -7,11 +7,34 @@
 // * -> evenOnly() -> 'Se necesita un array'
 // *
 // * Pista / Hint, debemos iterar el array (iterar = ${})
+// }
 
-let paso1 = prompt("numero")
-
-
-const funtioncomovalor = (nums) =>{
-    console.log(nums);
+const arr = [1,2,3,4,18]
+const pract = (pares) => {
+let cubo ="";
+for(i=0;i<arr.length;i++){
+    cubo += (arr[i]%2) == 0 ? cubo
+}return cubo
 }
+console.log(pract(arr));
 
+arr = [1,2,3,4,18]
+i=(5)
+
+cubo = (arr[1]%2) == 0 false (i++)
+cubo = (arr[2]%2) == 0 true ()
+
+
+
+
+
+
+
+
+// * Ejercicio 2 *Opcional
+// * Función que reciba como parámetro una array de strings
+// * y devuelva el primer y último carácter de cada string
+// * p.ej.
+// * -> firstAndLast ( ['hola', 'mundo'] ) -> ['ha', 'mo']
+// *
+// * Pista / Hint, debemos iterar el array
