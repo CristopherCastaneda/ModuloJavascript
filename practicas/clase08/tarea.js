@@ -52,20 +52,20 @@
 // * Generar una función que capitalize cada elemento del array
 // * => Se puede resolver con .forEach() o .map()
 
-const capitalize = (spaceholder) => {                                // esta es una funcion lo que esta en parentesis es el space holder
-    let capCities = [];                                      // se asigna una variabla para colocar el resultado se deja en blanco con estilo array []
-    spaceholder.forEach((city) => {                                  // (spaceholder.forEach) = se le asigna al spaceholder el metodo de for each y le asignas  ((otro nombre))                       
-       if(city.length>2)
-        let cityCapitalized = `${city[0].toUpperCase()}${city       // esto es un  
-        .slice(1)
-        .toLowerCase()}`;
+// const capitalize = (spaceholder) => {                                // esta es una funcion lo que esta en parentesis es el space holder
+//     let capCities = [];                                      // se asigna una variabla para colocar el resultado se deja en blanco con estilo array []
+//     spaceholder.forEach((city) => {                                  // (spaceholder.forEach) = se le asigna al spaceholder el metodo de for each y le asignas  ((otro nombre))                       
+//        if(city.length>2)
+//         let cityCapitalized = `${city[0].toUpperCase()}${city       // esto es un  
+//         .slice(1)
+//         .toLowerCase()}`;
   
-      capCities.push(cityCapitalized);
-    });
+//       capCities.push(cityCapitalized);
+//     });
   
-    return capCities;
-  };
-  console.log(capitalize(["méxicO", "RIo", "Los AngelEs"]));
+//     return capCities;
+//   };
+//   console.log(capitalize(["méxicO", "RIo", "Los AngelEs"]));
 
 
 
