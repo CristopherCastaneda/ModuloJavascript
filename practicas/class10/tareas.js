@@ -44,3 +44,45 @@
 //    level: 3,
 //    avatar: "https://picsum.photos/200/300"
 // }
+
+// Tarea fin de semana
+// Repaso general de esta primera mitad del modulo
+// Ejercicios metodos de Objetos (muy faciles ya)
+/**
+* Dado un array de objetos koders
+* Imprimir en consola, todos los nombres de cada koder
+*
+* Ferdinand Bracho tiene 30 años y es de la generación 2 y su primer modulo es python
+* Jose Hernandez tiene 20 años y es de la generación0 20' y su primer modulo es nodeJs
+* ....
+*
+*/
+/**
+* Del mismo array de koders
+* Obtener la suma de todas las edades
+*
+*/
+/**
+* Del objeto library (dado mas adelante)
+* 1. Obtener el numero de libros que se estan leyendo
+* 2. Obtener una lista de todos los autores
+* 3. Obtener una lista de todos los Libros
+*
+*/
+// let library = [
+//  {
+//      author: 'Bill Gates',
+//      title: 'The Road Ahead',
+//      readingStatus: true
+//  },
+//  {
+//      author: 'Steve Jobs',
+//      title: 'Walter Isaacson',
+//      readingStatus: true
+//  },
+//  {
+//      author: 'Suzanne Collins',
+//      title:  'Mockingjay: The Final Book of The Hunger Games',
+//      readingStatus: false
+//  }
+// ]
