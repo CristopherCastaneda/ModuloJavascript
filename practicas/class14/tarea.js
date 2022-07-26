@@ -358,7 +358,7 @@ const filterUSers = (str) => {
 
 
 // ? Tomando elemento input
-let input = document.querySelector('.input_text')
+let input = document.querySelector('.input_text') // seccion de filtrado
 
 // ? Tomando elemento boton "buscar"
 let findButton = document.querySelector('.find_user')
@@ -372,14 +372,14 @@ findButton.addEventListener('click', () => {
     // ? Ejecutando el filtrado
     result = filterUSers(strToFilter)
     let publicado = '';
-    result.forEach((name, username, email) => {
+    result.forEach(({name,username, email}) => {
         publicado +=
             `<a href="#" class="list-group-item list-group-item-action active" aria-current="true">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">${users.name}</h5>
-          <small>${users.username}</small>
+          <h5 class="mb-1">${name}</h5>
+          <small>${username}</small>
         </div>
-        <p class="mb-1">${users.email}</p>
+        <p class="mb-1">${email}</p>
       </a>
         `
     });
@@ -391,22 +391,54 @@ findButton.addEventListener('click', () => {
     console.log(result)
 
 })
-let completo="";
+let completo="";    // seccion de mostrar toda la informacion
 let nuevo="";
 document.addEventListener("DOMContentLoaded", ()=>{
-    
-        completo +=
+    let publicado = '';
+    users.forEach(({name,username, email}) => {
+        publicado +=
             `<a href="#" class="list-group-item list-group-item-action active" aria-current="true">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">${users.name}</h5>
-          <small>${users.username}</small>
+          <h5 class="mb-1">${name}</h5>
+          <small>${username}</small>
         </div>
-        <p class="mb-1">${users.email}</p>
+        <p class="mb-1">${email}</p>
       </a>
         `
-        let colocacion = document.querySelector("#list_users")
-    colocacion.innerHTML = completo
-    })
+    });
+
+    let colocacion = document.querySelector("#list_users")
+    colocacion.innerHTML = publicado  
+
+})
+
+input.addEventListener('input', () => {  // Se haga la busqueda en cada caracter que se agregue a mi campo de busqueda
+
+    // ? Tomando el valor del input
+    strToFilter = input.value
+
+    // ? Ejecutando el filtrado
+    result = filterUSers(strToFilter)
+    let publicado = '';
+    result.forEach(({name,username, email}) => { // poner los elementos en llaves por que es una destructuracion 
+        publicado +=
+            `<a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">${name}</h5>
+          <small>${username}</small>
+        </div>
+        <p class="mb-1">${email}</p>
+      </a>
+        `
+    });
+
+    let colocacion = document.querySelector("#list_users")
+    colocacion.innerHTML = publicado
+
+    // ? Imprimiendo el resultado en consola 
+    console.log(result)
+
+})
     
 
 
